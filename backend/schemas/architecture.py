@@ -10,3 +10,5 @@ class ArchitectureResponse(BaseModel):
     level: str
     components: Dict
     relationships: List
+    resources: List[str]
+    raw_content: str
